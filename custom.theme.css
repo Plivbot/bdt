@@ -1,10 +1,8 @@
 /**
-* @name Comfy
-* @author Nyria#3863
-* @description Stay comfy while talking to your friends
-* @invite rtBQX5D3bD
-* @version 2.2.1
-* @donate https://ko-fi.com/nyria
+* @name Custom
+* @author Pliv
+* @description yeah yeah
+* @version 1.0
 */
 
 @import "https://comfy-themes.github.io/Discord/betterdiscord/main.css";
@@ -78,10 +76,10 @@
   --mention-color-bar: #c66262;
 
   /* Background - Default value : #C662621F */
-  --mention-color-background: #c662621f;
+  --mention-color-background: #305ed41f;
 
   /* On hover - Default value : #C6626226 */
-  --mention-color-hover: #c6626226;
+  --mention-color-hover: #305ed426;
 
   /* ═══════『 💬 Chat buttons 』═══════ */
 

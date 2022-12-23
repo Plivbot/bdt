@@ -7,7 +7,7 @@
 	--accentcolor:					250, 176, 255; 
 	--accentcolor2:					255,115,250;
 	--linkcolor:					195, 76, 204;
-    --balls: rgb(195, 76, 204);
+    --balls: #fab0ff;
     --test: rgb(0,176,244);
 	
 	--accentcolor-hover:			rgb(var(--accentcolor)) linear-gradient(0deg, rgba(255,255,255,.15), rgba(255,255,255,.15));

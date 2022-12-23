@@ -13,8 +13,8 @@
 	--Channel-List-Boost-Goal: block;					/* block = ON, none = OFF */
 	--Channel-List-Width: 200px;						/* 200px, Discord default = 240px */
 	
-	--User-List-Width: 200px;							/* 200px, Discord default = 240px */
-	--User-Popout-Width: 236px;							/* 236px, Discord default = 300px */
+	--User-List-Width: 240px;							/* 200px, Discord default = 240px */
+	--User-Popout-Width: 300px;							/* 236px, Discord default = 300px */
 	--User-Status-Popout-Width: var(--User-Popout-Width);/* 236px, Discord default = 300px */
 	
 	--Search-List-Width: 488px;							/* 488px, Discord default = 418px */
@@ -23,12 +23,12 @@
 	--Emoji-Menu-Height: 618px;							/* 618px or 498px, Discord default = 444px */
 	
 	--Chatbox-Gift-Button: none;						/* flex = ON, none = OFF */
-	--Chatbox-GIF-Button: none;							/* flex = ON, none = OFF */
-	--Chatbox-Stickers-Button: none;					/* flex = ON, none = OFF */
+	--Chatbox-GIF-Button: flex;							/* flex = ON, none = OFF */
+	--Chatbox-Stickers-Button: flex;					/* flex = ON, none = OFF */
 	
-	--Chat-Emoji-Size: 1.75rem;							/* 1.75rem, Discord default = 1.375rem */
-	--Chat-Emoji-Large-Size: 2rem;						/* 2rem, Discord default = 3rem */
-	--Chat-Sticker-Size: 5rem;							/* 5rem, Discord default = 10rem */
+	--Chat-Emoji-Size: 1.375rem;							/* 1.75rem, Discord default = 1.375rem */
+	--Chat-Emoji-Large-Size: 3rem;						/* 2rem, Discord default = 3rem */
+	--Chat-Sticker-Size: 10rem;							/* 5rem, Discord default = 10rem */
 	--Chat-Wave-To-New-User-Button: flex;				/* flex = ON, none = OFF */
 	--Chat-Wave-To-New-DM-Button: flex;					/* flex = ON, none = OFF */
 	
@@ -43,25 +43,25 @@
 	--Home-Store-Button: none;							/* block = ON, none = OFF */
 	--Home-Direct-Messages-Header: flex;				/* flex = ON, none = OFF */
 	--Home-Close-DM-Button: block;						/* block = ON, none = OFF */
-	--Friends-List-Searchbar: none;						/* flex = ON, none = OFF */
+	--Friends-List-Searchbar: flex;						/* flex = ON, none = OFF */
 	
 	--Titlebar-Help-Icon: none;							/* flex = ON, none = OFF */
 }
 
 :root,
 .theme-dark {
-	--blurple: #3A71C1;												/* #7289DA */
-	--bdfdb-blurple: #3A71C1;										/* var(--brand-experiment, hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)); */
+	--blurple: #fab0ff;												/* #7289DA */
+	--bdfdb-blurple: #fab0ff;										/* var(--brand-experiment, hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)); */
 	--bdfdb-green: var(--status-positive-background);				/* hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%); */
 	--bdfdb-yellow: var(--status-warning-background);				/* hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%); */
 	--bdfdb-red: var(--status-danger-background);					/* hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%); */
 	--bd-blue: hsl(214, calc(var(--saturation-factor, 1) * 54%), 48%);
-	--bd-blue-hover: #4585D8;
-	--bd-blue-active: #3268B7;
+	--bd-blue-hover: #e08be6;
+	--bd-blue-active: #cd80d3;
 	
-	--text-brand: #3A71C1 !important;								/* #949CF7 */
-	--control-brand-foreground: #3A71C1 !important;					/* #A5B3E7 */
-	--brand-experiment: #3A71C1 !important;							/* #5865F2 */
+	--text-brand: #fab0ff !important;								/* #949CF7 */
+	--control-brand-foreground: #fab0ff !important;					/* #A5B3E7 */
+	--brand-experiment: #fab0ff !important;							/* #5865F2 */
 	--brand-experiment-400: var(--bd-blue);
 	--brand-experiment-500: var(--bd-blue);
 	--brand-experiment-530: var(--bd-blue-hover);

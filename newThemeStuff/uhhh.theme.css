@@ -55,7 +55,7 @@
 	--bdfdb-green: var(--status-positive-background);				/* hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%); */
 	--bdfdb-yellow: var(--status-warning-background);				/* hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%); */
 	--bdfdb-red: var(--status-danger-background);					/* hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%); */
-	--bd-blue: hsl(214, calc(var(--saturation-factor, 1) * 54%), 48%);
+	--bd-blue: #fab0ff;
 	--bd-blue-hover: #e08be6;
 	--bd-blue-active: #cd80d3;
 	
